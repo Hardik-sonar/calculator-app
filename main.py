@@ -1,3 +1,4 @@
+# Version 1.0 - Initial Release
 # Calculator Application - Main File
 # This file integrates all calculator operations
 
