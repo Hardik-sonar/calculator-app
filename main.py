@@ -1,24 +1,34 @@
 # Calculator Application - Main File
-# This file will integrate all calculator operations
+# This file integrates all calculator operations
+
+# Import functions from feature modules
+from add import add
+from sub import sub
+from mul import mul
 
 def main():
     """Main function to demonstrate calculator operations"""
     print("Calculator Application")
     print("=" * 40)
     
-    # Placeholder for add function
-    # result_add = add(10, 5)
-    # print(f"Addition: 10 + 5 = {result_add}")
+    # Test values
+    num1 = 10
+    num2 = 5
     
-    # Placeholder for sub function
-    # result_sub = sub(10, 5)
-    # print(f"Subtraction: 10 - 5 = {result_sub}")
+    # Call add function
+    result_add = add(num1, num2)
+    print(f"Addition: {num1} + {num2} = {result_add}")
     
-    # Placeholder for mul function
-    # result_mul = mul(10, 5)
-    # print(f"Multiplication: 10 * 5 = {result_mul}")
+    # Call sub function
+    result_sub = sub(num1, num2)
+    print(f"Subtraction: {num1} - {num2} = {result_sub}")
     
-    print("\nFeature functions will be integrated after merging branches")
+    # Call mul function
+    result_mul = mul(num1, num2)
+    print(f"Multiplication: {num1} * {num2} = {result_mul}")
+    
+    print("\n" + "=" * 40)
+    print("All features successfully integrated!")
 
 if __name__ == "__main__":
     main()
